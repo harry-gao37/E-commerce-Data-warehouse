@@ -23,6 +23,7 @@ For business data, since business data have already stored in MySQL, we need to 
 
 ## Data Warehouse Design
 
+we use Hive on Spark is because it is compatible with more ecosystem technologies. Dimensional Modeling Theory
 
 
 ## System modules and architecture
