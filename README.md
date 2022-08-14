@@ -4,9 +4,9 @@
 
 ### Technology selection
 
-| JDK | Hadoop | Flume  | Kafka | Zookeeper | Hive | Spark| DataX | MaxWell | DolphinScheduler|
-| :-----:| :----: | :----: | :-----:| :----: | :----: | :-----:| :----: | :----: |:----:|
-| 8u212 | 3.1.3 | 1.9.0 | 2.11-2.4.1 | 3.5.7 | 3.1.2 | 3.0.0 |  | 1.29.2 | 1.3.9|
+| Linux| JDK | Hadoop | Flume  | Kafka | Zookeeper | Hive | Spark| DataX | MaxWell | DolphinScheduler|
+|:-----:| :-----:| :----: | :----: | :-----:| :----: | :----: | :-----:| :----: | :----: |:----:|
+| CentOS 7|8u212 | 3.1.3 | 1.9.0 | 2.11-2.4.1 | 3.5.7 | 3.1.2 | 3.0.0 |  | 1.29.2 | 1.3.9|
 
 ## Data Collection
 
