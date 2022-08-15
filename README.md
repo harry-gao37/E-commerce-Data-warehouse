@@ -34,7 +34,7 @@ For business data, since business data have already stored in MySQL, we need to 
 
 ## Data Warehouse Design
 
-> we use Hive on Spark is because it is compatible with more ecosystem technologies. Dimensional Modeling Theory
+> According to the dimensional modeling theory, the data warehouse is divided into 5 blocks, and the most fine-grained data is gradually converted into the required business statistical indicators. we mainly use Hive on Spark for it is compatible with more ecosystem technologies. 
 
 ![](https://github.com/harry-gao37/E-commerce-Data-warehouse/blob/master/data_warehouse_design.png)
 
