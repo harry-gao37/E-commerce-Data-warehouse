@@ -10,7 +10,7 @@
 
 
 ## System modules and architecture
-<br>
+
 ![](https://github.com/harry-gao37/E-commerce-Data-warehouse/blob/master/Data_Flow.png)
 
   
@@ -29,12 +29,12 @@ For user log data, this project firstly use flume to collect user behavior log f
 
 For business data, since business data have already stored in MySQL, we need to read data from MySQL to HDFS. According to whether it is new data or not, we divide the tables into two types: full scale tables which store first day and historical data and incremental tables that gather daily updated data. For full scale tables, we only need to use DataX. For incremental tables, we need to use Maxwell first to , and then use kafka and flume to put the data into same category. Finally, all data will be temporarily stored in HDFS. 
   
- <br>
+
 ![](https://github.com/harry-gao37/E-commerce-Data-warehouse/blob/master/Business_data_collection.png)
 
 ## Data Warehouse Design
 
-we use Hive on Spark is because it is compatible with more ecosystem technologies. Dimensional Modeling Theory
+> we use Hive on Spark is because it is compatible with more ecosystem technologies. Dimensional Modeling Theory
 
 ![](https://github.com/harry-gao37/E-commerce-Data-warehouse/blob/master/data_warehouse_design.png)
 
